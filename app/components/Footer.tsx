@@ -16,12 +16,7 @@ export default function Footer({ className = '' }: { className: string }) {
         Ehsan Tatasadi
       </a>
       <br />
-      <a
-        className="footer-link"
-        href="https://github.com/tatasadi/huddle-landing-page"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a className="footer-link" href="https://github.com/tatasadi/meet-landing-page" target="_blank" rel="noreferrer">
         Source Code
       </a>
     </footer>
