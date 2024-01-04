@@ -5,13 +5,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        'hippie-blue': 'hsla(192, 37%, 48%, 1)',
-        deluge: 'hsla(268, 34%, 53%, 1)',
-        'ebony-clay': 'hsla(240, 21%, 20%, 1)',
-        manatee: 'hsla(240, 10%, 57%, 1)',
-        malibu: 'hsla(192, 90%, 77%, 1)',
-        mauve: 'hsla(268, 100%, 86%, 1)',
-        alabaster: 'hsla(0, 0%, 98%, 1)',
+        primary: 'hsla(192, 37%, 48%, 1)',
+        secondary: 'hsla(268, 34%, 53%, 1)',
+        dark: 'hsla(240, 21%, 20%, 1)',
+        light: 'hsla(240, 10%, 57%, 1)',
+        'primary-bright': 'hsla(192, 90%, 77%, 1)',
+        'secondary-bright': 'hsla(268, 100%, 86%, 1)',
+        'very-light': 'hsla(0, 0%, 98%, 1)',
       },
     },
     fontFamily: {

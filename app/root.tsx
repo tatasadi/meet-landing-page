@@ -16,7 +16,7 @@ export const links: LinksFunction = () => [
   },
   {
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css2?family=Open+Sans&family=Red+Hat+Display:wght@400;700;900&display=swap',
+    href: 'https://fonts.googleapis.com/css2?family=Open+Sans&family=Red+Hat+Display:wght@400;500;700;900&display=swap',
   },
 ]
 
@@ -29,7 +29,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="font-red-hat-display bg-alabaster flex min-h-screen flex-col items-center justify-center">
+      <body className="font-red-hat-display bg-very-light text-dark flex min-h-screen flex-col items-center justify-center">
         <Outlet />
         <Footer className="m-4 mt-auto" />
         <ScrollRestoration />
