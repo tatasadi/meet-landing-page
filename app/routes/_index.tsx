@@ -16,21 +16,21 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <main className="flex flex-col items-center">
+    <main className="relative flex flex-col items-center">
       <img src={logo} alt="logo" className="my-12" />
       <div className="grid grid-cols-2 justify-items-center gap-9">
         <img src={heroLeft} alt="hero left" className="" />
         <img src={heroRight} alt="hero right" className="" />
         <div className="self col-span-2 p-6 text-center">
           <h1 className="text-[2.5rem] font-black leading-[2.75rem]">Group Chat for Everyone</h1>
-          <p className="text-light mb-8 mt-6 font-medium leading-[1.625rem]">
+          <p className="mb-8 mt-6 font-medium leading-[1.625rem] text-light">
             Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
           </p>
           <div className="flex flex-col items-center gap-4">
             <Button className="bg-primary">
               Download <span className="text-primary-bright">v1.3</span>
             </Button>
-            <Button className="bg-secondary my-4">What is it?</Button>
+            <Button className="my-4 bg-secondary">What is it?</Button>
           </div>
         </div>
       </div>
@@ -42,27 +42,27 @@ export default function Index() {
         <img src={manTexting} alt="Man textign" className="rounded-xl" />
       </div>
       <div className="p-6 text-center">
-        <h2 className="text-primary mb-6 font-black uppercase leading-[0.625rem] tracking-[0.25rem]">
+        <h2 className="mb-6 font-black uppercase leading-[0.625rem] tracking-[0.25rem] text-primary">
           Built for modern use
         </h2>
-        <h3 className="text-dark mb-8 text-[2rem] font-black leading-[2.25rem]">Smarter meetings, all in one place</h3>
-        <p className="text-light font-medium leading-[1.625rem]">
+        <h3 className="mb-8 text-[2rem] font-black leading-[2.25rem] text-dark">Smarter meetings, all in one place</h3>
+        <p className="font-medium leading-[1.625rem] text-light">
           Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can
           join with invite-only team access, data encryption, and data export.
         </p>
       </div>
-      <Number className="mt-16">02</Number>
 
-      <div className="bg-primary/90 relative mb-4 w-full bg-opacity-10 p-6 text-center text-white">
+      <Number className="relative z-10 translate-y-[2rem]">02</Number>
+      <div className="relative mb-4 w-full bg-primary/90 bg-opacity-10 p-6 text-center text-white">
         <div
           className="absolute bottom-0 left-0 right-0 top-0 z-[-1] bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${footerMobile})` }}
         ></div>
         <h2 className="mt-16 text-[2rem] font-black leading-[2.25rem]">Experience more together</h2>
-        <p className="text-very-light mt-6 text-lg font-medium leading-[1.625rem]">
+        <p className="mt-6 text-lg font-medium leading-[1.625rem] text-very-light">
           Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
         </p>
-        <Button className="bg-secondary mb-8 mt-8">
+        <Button className="mb-8 mt-8 bg-secondary">
           Download <span className="text-secondary-bright">v1.3</span>
         </Button>
       </div>
