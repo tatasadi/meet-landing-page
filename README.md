@@ -1,10 +1,10 @@
-# Four card feature section
+# Meet Landing Page
 
-This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Meet landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [Four card feature section](#four-card-feature-section)
+- [Meet Landing Page](#meet-landing-page)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
@@ -21,16 +21,19 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+-
 
 ### Screenshots
 
 ![](./screenshot1.jpg)
 ![](./screenshot2.jpg)
+![](./screenshot3.jpg)
 
 ### Links
 
-- Solution URL: [https://github.com/tatasadi/four-card-feature-section](https://github.com/tatasadi/four-card-feature-section)
-- Live Site URL: [https://four-card-feature-section-ta.vercel.app](https://four-card-feature-section-ta.vercel.app)
+- Solution URL: [https://github.com/tatasadi/meet-landing-page](https://github.com/tatasadi/meet-landing-page)
+- Live Site URL: [https://meet-landing-page-ta.vercel.app](https://meet-landing-page-ta.vercel.app)
 
 ## My process
 
