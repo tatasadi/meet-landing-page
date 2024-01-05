@@ -12,6 +12,8 @@ export default {
         'primary-bright': 'hsla(192, 90%, 77%, 1)',
         'secondary-bright': 'hsla(268, 100%, 86%, 1)',
         'very-light': 'hsla(0, 0%, 98%, 1)',
+        'secondary-light': 'hsla(268, 55%, 71%, 1)',
+        'primary-light': 'hsla(192, 54%, 64%, 1)',
       },
     },
     fontFamily: {
